@@ -6,14 +6,22 @@
  */
 
 #include <string>
-#include <iostream>
+#include <fstream>
+#include "Station.h"
 
 namespace w2 {
 
   Station::Station() {
+    stationName = "";
+    stationPasses[STUDENT_PASS] = 0;
+    stationPasses[ADULT_PASS] = 0;
+  }
+
+  Station::Station(std::fstream& fs) {
     std::string name;
-    getline(fs, name, ';');
+    std::getline(fs, name, ';');
     int s, a;
+    char c;
     fs >> s;
     fs >> a;
     fs.get(c);
@@ -26,19 +34,19 @@ namespace w2 {
 
   void Station::set(const std::string& name, unsigned student, unsigned adult) {
     stationName = name;
+    stationPasses[STUDENT_PASS] = student;
     stationPasses[ADULT_PASS] = adult;
-    stationPAsses[STUDENT_PASS] = student;
   }
 
-  void Station::update(PassType, int) {
+  void Station::update(PassType pt, int number) {
     stationPasses[pt] += number;
   }
 
-  unsigned Station::inStock(PassType) const {
+  unsigned Station::inStock(PassType pt) const {
     return stationPasses[pt];
   }
 
-  const Station::std::string& getName() const {
+  const std::string& Station::getName() const {
     return stationName;
   }
 }

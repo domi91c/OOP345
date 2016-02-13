@@ -5,12 +5,20 @@
  * Date: September 28, 2015
  */
 
+#include "Station.h"
+
 namespace w2 {
   class Stations {
+    private:
+      int stationsCount;
+      Station *stationsTable;
+      char* filename;
     public:
+      Stations ();
       Stations (char* filename);
-      void update();
-      void restock();
-      void report();
+      ~Stations();
+      void update() const;
+      void restock() const;
+      void report() const;
   };
 }

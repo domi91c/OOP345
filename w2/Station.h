@@ -9,13 +9,20 @@
 #include <iostream>
 
 namespace w2 {
-  enum PassType {ADULT_PASS, STUDENT_PASS, PASS_COUNT};
+
+  enum PassType {
+    ADULT_PASS,
+    STUDENT_PASS,
+    PASS_COUNT
+  };
+
   class Station {
     private:
-      std:::string stationName;
+      std::string stationName;
       int stationPasses[PASS_COUNT];
     public:
-      Station(); //default constructor
+      Station();
+      Station(std::fstream& fs); //default constructor
       void set(const std::string&, unsigned, unsigned); //sets the instance variables to the values received in its parameters
       void update(PassType, int); //updates the number of passes - sold if negative, added if positive
       unsigned inStock(PassType) const; //returns the number of passes of the requested type
