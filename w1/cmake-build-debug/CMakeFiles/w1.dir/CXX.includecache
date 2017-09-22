@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/domi91c/ClionProjects/w1/CString.cpp
+iostream
+-
+CString.h
+/Users/domi91c/ClionProjects/w1/CString.h
+
+/Users/domi91c/ClionProjects/w1/CString.h
+iostream
+-
+
+/Users/domi91c/ClionProjects/w1/main.cpp
+iostream
+-
+CString.h
+/Users/domi91c/ClionProjects/w1/CString.h
+process.h
+/Users/domi91c/ClionProjects/w1/process.h
+
+/Users/domi91c/ClionProjects/w1/process.cpp
+iostream
+-
+process.h
+/Users/domi91c/ClionProjects/w1/process.h
+CString.h
+/Users/domi91c/ClionProjects/w1/CString.h
+
+/Users/domi91c/ClionProjects/w1/process.h
+
