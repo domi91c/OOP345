@@ -1,0 +1,2 @@
+In this workshop, I relearned the basic concepts from last semester, such as 
+the formatting of class headers and the use of C style strings.
