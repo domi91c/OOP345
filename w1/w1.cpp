@@ -13,7 +13,13 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    cout << "Maximum number of characters stored : " << MAX << endl;
+    cout << "Command Line :";
+    for (int i = 0; i < argc; i++) {
+      cout << " " << argv[i];
+    }
+    cout << endl;
+
+    cout << "Maximum number of characters to be stored : " << MAX << endl;
     for (int i = 1; i < argc; i++) {
         process(argv[i]);
     }

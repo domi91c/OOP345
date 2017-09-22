@@ -1,0 +1,10 @@
+Script started on Fri 22 Sep 2017 07:30:58 PM EDT
+dcnunes@matrix:~/OOP345/w1> ws oop345 btp305
+Command Line : ws oop345 btp305
+Maximum number of characters to be stored : 3
+0: oop
+1: btp
+dcnunes@matrix:~/OOP345/w1> exit[K
+exit
+
+Script done on Fri 22 Sep 2017 07:31:02 PM EDT
