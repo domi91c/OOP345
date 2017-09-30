@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/domi91c/OOP345/w3/Text.cpp
+iostream
+-
+fstream
+-
+vector
+-
+Text.h
+/Users/domi91c/OOP345/w3/Text.h
+
+/Users/domi91c/OOP345/w3/Text.h
+iostream
+-
+vector
+-
+
+/Users/domi91c/OOP345/w3/w3.cpp
+iostream
+-
+iomanip
+-
+utility
+-
+ctime
+-
+Text.h
+/Users/domi91c/OOP345/w3/Text.h
+
