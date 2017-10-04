@@ -14,7 +14,8 @@ namespace w3
 class Text
 {
 private:
-    std::vector<std::string> m_lines;
+//    std::vector<std::string> m_lines;
+    std::string m_lines;
 public:
     Text();
     explicit Text(std::string fileName);

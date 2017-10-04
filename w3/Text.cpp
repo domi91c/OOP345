@@ -3,6 +3,8 @@
 #include <vector>
 #include "Text.h"
 
+using namespace std;
+
 w3::Text::Text()
 {
     m_lines.clear();
@@ -12,10 +14,13 @@ w3::Text::Text(const std::string fileName)
 {
     std::fstream fs(fileName);
     if (fs.fail()) return;
+    // check number of lines
+    int count = 0;
     std::string line;
     while (getline(fs, line)) {
-        m_lines.push_back(line);
+        count++;
     }
+    cout << "line count: " << count << endl;
     fs.close();
 }
 
