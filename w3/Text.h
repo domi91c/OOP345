@@ -14,15 +14,14 @@ namespace w3
 class Text
 {
 private:
-    std::string *m_strings;
-    size_t m_count;
+    std::vector<std::string> m_lines;
 public:
     Text();
     explicit Text(std::string fileName);
     Text(const Text &text);
-    Text(const Text &&text);
+    Text(const Text &&text) noexcept;
     Text &operator=(const Text &text);
-    Text &&operator=(Text &&text);
+    Text &&operator=(Text &&text) noexcept;
     size_t size() const;
 };
 }
