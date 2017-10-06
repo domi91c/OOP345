@@ -14,7 +14,6 @@ namespace w3
 class Text
 {
 private:
-//    std::vector<std::string> m_lines;
     std::string *m_lines;
     size_t m_lineCount;
 public:
