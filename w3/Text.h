@@ -15,7 +15,8 @@ class Text
 {
 private:
 //    std::vector<std::string> m_lines;
-    std::string m_lines;
+    std::string *m_lines;
+    size_t m_lineCount;
 public:
     Text();
     explicit Text(std::string fileName);
@@ -24,6 +25,7 @@ public:
     Text &operator=(const Text &text);
     Text &&operator=(Text &&text) noexcept;
     size_t size() const;
+    virtual ~Text();
 };
 }
 
