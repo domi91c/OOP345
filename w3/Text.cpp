@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <fstream>
 #include "Text.h"
 
@@ -23,7 +24,7 @@ Text::Text(const std::string fileName)
     while (getline(fs, line)) {
         count++;
     }
-    m_lineCount = static_cast<size_t>(count);
+    m_lineCount = count;
 
     // go back to start of file
     fs.clear();

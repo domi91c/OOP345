@@ -15,7 +15,7 @@ class Text
 {
 private:
     std::string *m_lines;
-    size_t m_lineCount;
+    int m_lineCount;
 public:
     Text();
     explicit Text(std::string fileName);

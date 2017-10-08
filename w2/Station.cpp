@@ -34,12 +34,16 @@ void w2::Station::update(PassType passType, int quantity)
     }
 }
 
-unsigned w2::Station::inStock(PassType passType) const
+unsigned int w2::Station::inStock(PassType passType) const
 {
-    switch (passType) {
-    case STUDENT:return m_studentPassCount;
-    case ADULT:return m_adultPassCount;
-    }
+  int ret;
+  if (passType) {
+    ret = m_studentPassCount;
+  } else {
+    ret = m_adultPassCount;
+  }
+
+  return ret;
 }
 
 const std::string &w2::Station::getName() const
