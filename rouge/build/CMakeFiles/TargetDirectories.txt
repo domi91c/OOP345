@@ -1,0 +1,3 @@
+/Users/domi91c/OOP345/rouge/build/CMakeFiles/rebuild_cache.dir
+/Users/domi91c/OOP345/rouge/build/CMakeFiles/edit_cache.dir
+/Users/domi91c/OOP345/rouge/build/CMakeFiles/rouge.dir

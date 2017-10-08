@@ -36,10 +36,6 @@ w2::Stations::Stations(char *fileName)
 
 }
 
-w2::Stations::~Stations()
-{
-
-}
 
 void w2::Stations::report()
 {
@@ -87,4 +83,9 @@ void w2::Stations::update()
         m_stations[i].update(ADULT, -adultPassesSold);
     }
     cout << endl;
+}
+
+w2::Stations::~Stations()
+{
+
 }

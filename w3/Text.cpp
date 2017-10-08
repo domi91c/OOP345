@@ -13,14 +13,14 @@ Text::Text()
     m_lineCount = 0;
 }
 
-Text::Text(const std::string fileName)
+Text::Text(const string fileName)
 {
-    std::fstream fs(fileName);
+    fstream fs(fileName);
     if (fs.fail()) return;
 
     // get line count
     int count = 0;
-    std::string line;
+    string line;
     while (getline(fs, line)) {
         count++;
     }
@@ -64,7 +64,7 @@ Text &Text::operator=(const Text &text)
 
 Text &&Text::operator=(Text &&text) noexcept
 {
-    return std::move(*this);
+    return move(*this);
 }
 
 size_t Text::size() const
