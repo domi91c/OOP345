@@ -15,14 +15,14 @@ class Stations
 
 public:
     explicit Stations(char *fileName);
-    virtual ~Stations();
     void update();
     void restock();
     void report();
+    virtual ~Stations();
 private:
     std::string m_fileName;
     int m_stationCount;
-    Station* m_stations;
+    Station *m_stations;
 
 };
 }

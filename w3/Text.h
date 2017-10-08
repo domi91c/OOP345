@@ -11,6 +11,7 @@
 
 namespace w3
 {
+
 class Text
 {
 private:
@@ -26,6 +27,7 @@ public:
     size_t size() const;
     virtual ~Text();
 };
+
 }
 
 
