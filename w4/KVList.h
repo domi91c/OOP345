@@ -10,7 +10,6 @@ class KVList
 
 public:
     KVList()
-        : m_count(0)
     {}
 
     size_t size() const
@@ -55,6 +54,7 @@ public:
             m_k[i] = k;
             m_v[i] = v;
         }
+
 
         return *this;
     }
