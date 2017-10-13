@@ -1,0 +1,13 @@
+Script started on Fri 06 Oct 2017 03:23:09 PM EDT
+dcnunes@matrix:~/OOP345/w3> ws gutenberg_shakespeare 
+Constructor      0.000 seconds - a.size = 0
+Constructor      0.130 seconds - b.size = 124456
+Copy Assignment  0.070 seconds - a.size = 124456
+Move Assignment  0.000 seconds - a.size = 124456
+Copy Constructor 0.080 seconds - c.size = 124456
+Move Constructor 0.070 seconds - d.size = 124456
+Destructor       0.060 seconds
+dcnunes@matrix:~/OOP345/w3> exit
+exit
+
+Script done on Fri 06 Oct 2017 03:23:19 PM EDT

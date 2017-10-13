@@ -18,7 +18,6 @@ w2::Stations::Stations(char *fileName)
     ifstream ifs(m_fileName);
 
     if (ifs.fail()) {
-        cout << "FAIL" << endl;
         return;
     }
 
@@ -43,9 +42,10 @@ void w2::Stations::report()
     cout << "Passes in Stock : Student Adult" << endl;
     cout << "-------------------------------" << endl;
     for (int i = 0; i < m_stationCount; ++i) {
-        cout << setw(19) << std::left << m_stations[i].getName();
-        cout << setw(6) << std::right << m_stations[i].inStock(STUDENT);
-        cout << setw(6) << m_stations[i].inStock(ADULT);
+        cout << setw(20) << std::left << m_stations[i].getName();
+        cout << setw(5) << right << m_stations[i].inStock(ADULT);
+        cout << setw(6) << right << std::right << m_stations[i].inStock(STUDENT);
+
         cout << endl;
     }
 
@@ -55,13 +55,13 @@ void w2::Stations::restock()
 {
     int studentPassesAdded, adultPassesAdded;
     cout << "Passes Added :" << endl;
-    cout << "-------------" << endl;
+    cout << "--------------" << endl;
     for (int i = 0; i < m_stationCount; ++i) {
         cout << m_stations[i].getName() << endl;
         cout << " Student Passes added : ";
         cin >> studentPassesAdded;
         m_stations[i].update(STUDENT, studentPassesAdded);
-        cout << " Adult Passes added : ";
+        cout << " Adult   Passes added : ";
         cin >> adultPassesAdded;
         m_stations[i].update(ADULT, adultPassesAdded);
     }
@@ -71,14 +71,14 @@ void w2::Stations::restock()
 void w2::Stations::update()
 {
     int studentPassesSold, adultPassesSold;
-    cout << "Passes Sold :" << endl;
+    cout << endl << "Passes Sold :" << endl;
     cout << "-------------" << endl;
     for (int i = 0; i < m_stationCount; ++i) {
         cout << m_stations[i].getName() << endl;
         cout << " Student Passes sold : ";
         cin >> studentPassesSold;
         m_stations[i].update(STUDENT, -studentPassesSold);
-        cout << " Adult Passes sold : ";
+        cout << " Adult   Passes sold : ";
         cin >> adultPassesSold;
         m_stations[i].update(ADULT, -adultPassesSold);
     }

@@ -1,0 +1,1 @@
+In this lab, I gained a better understanding of file in and out using the fstream operators. It was a helpful refresher to last semester.
