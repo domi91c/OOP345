@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/domi91c/OOP345/w5/Message.cpp
+Message.h
+/Users/domi91c/OOP345/w5/Message.h
+
+/Users/domi91c/OOP345/w5/Message.h
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+vector
+-
+Message.h
+/Users/domi91c/OOP345/w5/Message.h
+
+/Users/domi91c/OOP345/w5/Notifications.cpp
+Notifications.h
+/Users/domi91c/OOP345/w5/Notifications.h
+
+/Users/domi91c/OOP345/w5/Notifications.h
+Message.h
+/Users/domi91c/OOP345/w5/Message.h
+
+/Users/domi91c/OOP345/w5/w5.cpp
+iostream
+-
+fstream
+-
+Message.h
+/Users/domi91c/OOP345/w5/Message.h
+Notifications.h
+/Users/domi91c/OOP345/w5/Notifications.h
+
