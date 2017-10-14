@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/domi91c/OOP345/w5/cmake-build-debug"/>
+				<Option working_dir="/Users/domi91c/oop345/w5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/domi91c/OOP345/w5/cmake-build-debug"/>
+				<Option working_dir="/Users/domi91c/oop345/w5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/domi91c/OOP345/w5/cmake-build-debug"/>
+				<Option working_dir="/Users/domi91c/oop345/w5/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="w5">
-				<Option output="/Users/domi91c/OOP345/w5/cmake-build-debug/w5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/domi91c/OOP345/w5/cmake-build-debug"/>
+				<Option output="/Users/domi91c/oop345/w5/cmake-build-debug/w5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/domi91c/oop345/w5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 w5"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 w5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="w5/fast">
-				<Option output="/Users/domi91c/OOP345/w5/cmake-build-debug/w5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/domi91c/OOP345/w5/cmake-build-debug"/>
+				<Option output="/Users/domi91c/oop345/w5/cmake-build-debug/w5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/domi91c/oop345/w5/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,26 +75,26 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 w5/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/OOP345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 w5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/domi91c/oop345/w5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/domi91c/OOP345/w5/Message.cpp">
+		<Unit filename="/Users/domi91c/oop345/w5/Message.cpp">
 			<Option target="w5"/>
 		</Unit>
-		<Unit filename="/Users/domi91c/OOP345/w5/Message.h">
+		<Unit filename="/Users/domi91c/oop345/w5/Message.h">
 			<Option target="w5"/>
 		</Unit>
-		<Unit filename="/Users/domi91c/OOP345/w5/Notifications.cpp">
+		<Unit filename="/Users/domi91c/oop345/w5/Notifications.cpp">
 			<Option target="w5"/>
 		</Unit>
-		<Unit filename="/Users/domi91c/OOP345/w5/Notifications.h">
+		<Unit filename="/Users/domi91c/oop345/w5/Notifications.h">
 			<Option target="w5"/>
 		</Unit>
-		<Unit filename="/Users/domi91c/OOP345/w5/w5.cpp">
+		<Unit filename="/Users/domi91c/oop345/w5/w5.cpp">
 			<Option target="w5"/>
 		</Unit>
 		<Unit filename="/Users/domi91c/OOP345/w5/CMakeLists.txt">

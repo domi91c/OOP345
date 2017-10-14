@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/domi91c/OOP345/w5/Message.cpp" "/Users/domi91c/OOP345/w5/cmake-build-debug/CMakeFiles/w5.dir/Message.cpp.o"
-  "/Users/domi91c/OOP345/w5/Notifications.cpp" "/Users/domi91c/OOP345/w5/cmake-build-debug/CMakeFiles/w5.dir/Notifications.cpp.o"
-  "/Users/domi91c/OOP345/w5/w5.cpp" "/Users/domi91c/OOP345/w5/cmake-build-debug/CMakeFiles/w5.dir/w5.cpp.o"
+  "/Users/domi91c/oop345/w5/Message.cpp" "/Users/domi91c/oop345/w5/cmake-build-debug/CMakeFiles/w5.dir/Message.cpp.o"
+  "/Users/domi91c/oop345/w5/Notifications.cpp" "/Users/domi91c/oop345/w5/cmake-build-debug/CMakeFiles/w5.dir/Notifications.cpp.o"
+  "/Users/domi91c/oop345/w5/w5.cpp" "/Users/domi91c/oop345/w5/cmake-build-debug/CMakeFiles/w5.dir/w5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

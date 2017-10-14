@@ -7,7 +7,7 @@ namespace w5
 {
 class Notifications
 {
-    std::vector<Message> messages;
+    std::vector<Message> _messages;
 public:
     Notifications collect(std::ifstream &in, char recDelim);
     Notifications();
