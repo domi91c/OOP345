@@ -18,19 +18,6 @@ w5::Message::Message(ifstream &in, char c)
     getline(is, _tweet);
 
     is.clear();
-
-    if (!(_tweet.empty())) {
-        cout << "Message " << endl;
-        cout << " User  : ";
-        cout << _user << endl;
-
-        if (!(_reply.empty())) {
-            cout << " Reply : ";
-            cout << _reply << endl;
-        }
-        cout << " Tweet : ";
-        cout << _tweet << endl;
-    }
 }
 
 bool w5::Message::empty() const
