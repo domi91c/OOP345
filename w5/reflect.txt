@@ -1,0 +1,2 @@
+In this workshop, I gained a better understanding of some of the string class' methods, such as substr. I also learned how to use vectors
+in place of arrays, and I much prefer working with them now.

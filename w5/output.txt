@@ -1,0 +1,30 @@
+Script started on Fri 13 Oct 2017 11:24:29 PM EDT
+dcnunes@matrix:~/OOP345/w5> ws w5_test.dat 
+
+Notifications
+=============
+
+exit
+
+^C
+dcnunes@matrix:~/OOP345/w5> ws w5_test.dat 
+
+Notifications
+=============
+
+Message
+
+
+quit
+exit
+
+^C
+dcnunes@matrix:~/OOP345/w5> ws w5_test.dat 
+
+Notifications
+=============
+
+^C
+dcnunes@matrix:~/OOP345/w5> exit
+
+Script done on Fri 13 Oct 2017 11:25:39 PM EDT
