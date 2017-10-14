@@ -11,6 +11,8 @@ w5::Message::Message(ifstream &in, char c)
     is >> _user;
     // if @ is found, get reply
     if ((int) line.find('@') > 0) {
+        is.ignore();
+        is.ignore();
         is >> _reply;
     }
     // get rest of line
